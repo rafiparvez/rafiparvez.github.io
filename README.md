@@ -1,3 +1,3 @@
-## To Access Parvez Rafi's Portfolio, please hit the link below.
+## To access Parvez Rafi's Portfolio, please click the link below.
 
 [https://rafiparvez.github.io/](https://rafiparvez.github.io/)
