@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <title>My Learning Curve</title>
+    <title>Linear Regression In TensorFlow &middot; My Learning Curve</title>
     <meta name="generator" content="Hugo 0.16-DEV" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -10,10 +10,7 @@
       <meta name="description" content="">
     
     
-      <link href="https://parvezrafi.github.io/index.xml" rel="alternate" type="application/rss+xml" title="My Learning Curve" />
-      <link href="https://parvezrafi.github.io/index.xml" rel="feed" type="application/rss+xml" title="My Learning Curve" />
-    
-    <link rel="canonical" href="https://parvezrafi.github.io/"/>
+    <link rel="canonical" href="https://parvezrafi.github.io/2016/12/11/linear-regression-in-tensorflow"/>
     <link rel="icon" href="https://parvezrafi.github.io/favicon.ico">
     <link rel="apple-touch-icon" href="https://parvezrafi.github.io/apple-touch-icon.png"/>
     <link rel="stylesheet" href="https://parvezrafi.github.io/css/style.css">
@@ -23,12 +20,13 @@
     
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
-    <meta property="og:title" content="My Learning Curve" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://parvezrafi.github.io/" />
+    <meta property="og:title" content="Linear Regression In TensorFlow" />
+<meta property="og:description" content="This article explains how to implement linear regression in using Tensorflow. TensorFlow is an open-source library released by Google Brain Team in 2015 for numerical computations using dataflow graphs. Before we dive into implementing Linear Regression algorithm using Tensorflow, let me give you a brief primer on linear regression. Linear Regression Regression problem in machine learning means predicting continuous valued outputs. When regression problem arises in situations, when there exists a nearly linear relation between input and output variables, we classify such problems under linear regression." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://parvezrafi.github.io/2016/12/11/linear-regression-in-tensorflow" />
 
 
+<meta property="og:updated_time" content="2016-12-11T22:50:08&#43;02:00"/>
 
 
 
@@ -41,11 +39,28 @@
 
     
     
-<meta itemprop="name" content="My Learning Curve">
-<meta itemprop="description" content="">
+<meta itemprop="name" content="Linear Regression In TensorFlow">
+<meta itemprop="description" content="This article explains how to implement linear regression in using Tensorflow. TensorFlow is an open-source library released by Google Brain Team in 2015 for numerical computations using dataflow graphs. Before we dive into implementing Linear Regression algorithm using Tensorflow, let me give you a brief primer on linear regression. Linear Regression Regression problem in machine learning means predicting continuous valued outputs. When regression problem arises in situations, when there exists a nearly linear relation between input and output variables, we classify such problems under linear regression.">
 
+
+<meta itemprop="dateModified" content="2016-12-11T22:50:08&#43;02:00" />
+<meta itemprop="wordCount" content="821">
+
+
+
+<meta itemprop="keywords" content="machine-learning,tensorflow," />
 
     
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:title" content="Linear Regression In TensorFlow"/>
+<meta name="twitter:description" content="This article explains how to implement linear regression in using Tensorflow. TensorFlow is an open-source library released by Google Brain Team in 2015 for numerical computations using dataflow graphs. Before we dive into implementing Linear Regression algorithm using Tensorflow, let me give you a brief primer on linear regression. Linear Regression Regression problem in machine learning means predicting continuous valued outputs. When regression problem arises in situations, when there exists a nearly linear relation between input and output variables, we classify such problems under linear regression."/>
+<meta name="twitter:site" content="@parvez_rafi"/>
+
+
     
 
     
@@ -58,7 +73,7 @@
 
 
 <div id="container">
-    <header id="header">
+	<header id="header">
   <div id="header-main" class="header-inner">
     <div class="outer">
       <a href="https://parvezrafi.github.io/" id="logo">
@@ -134,9 +149,10 @@
   </div>
 </header>
 
-
-    <div class="outer">
-    <aside id="profile">
+   	
+   	<div class="outer">
+   		
+	    <aside id="profile">
   <div class="inner profile-inner">
     <div class="base-info profile-block">
       <img id="avatar" src="https://parvezrafi.github.io/css/images/avatar.png">
@@ -223,23 +239,23 @@
 <td><a href="//twitter.com/parvez_rafi" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></td>
 
 
-          <td><a href="https://parvezrafi.github.io/index.xml" target="_blank" title="RSS"><i class="fa fa-rss"></i></a></td>
+          <td><a href="" target="_blank" title="RSS"><i class="fa fa-rss"></i></a></td>
         </tr>
       </table>
     </div>
   </div>
 </aside>
 
-    <section id="main">
-    
-    
-    <article class="article article-type-post" itemscope="" itemprop="blogPost">
+	    
+
+	    
+<section id="main">
+
+    <article id="page-undefined" class="article article-type-page" itemscope="" itemprop="blogPost">
         <div class="article-inner">
             
-            <a href="https://parvezrafi.github.io/2016/12/11/linear-regression-in-tensorflow" itemprop="url">
                 <img src="https://parvezrafi.github.io/banners/tf.jpg" class="article-banner">
             
-            </a>
 
             <header class="article-header">
     <a href="https://parvezrafi.github.io/2016/12/11/linear-regression-in-tensorflow">
@@ -290,15 +306,153 @@
 </header>
 
             <div class="article-entry" itemprop="articleBody">
-                <p>
-                    This article explains how to implement linear regression in using Tensorflow. TensorFlow is an open-source library released by Google Brain Team in 2015 for numerical computations using dataflow graphs. Before we dive into implementing Linear Regression algorithm using Tensorflow, let me give you a brief primer on linear regression. Linear Regression Regression problem in machine learning means predicting continuous valued outputs. When regression problem arises in situations, when there exists a nearly linear relation between input and output variables, we classify such problems under linear regression.
-                    <br>
-                </p>
-                <p class="article-more-link">
-                    <a href="https://parvezrafi.github.io/2016/12/11/linear-regression-in-tensorflow">
-                        Read more
-                    </a>
-                </p>
+                
+
+<p>This article explains how to implement linear regression in using Tensorflow.</p>
+
+<p>TensorFlow is an open-source library released by Google Brain Team in 2015 for numerical computations using dataflow graphs. Before we dive into implementing Linear Regression algorithm using Tensorflow, let me give you a brief primer on <em>linear regression</em>.</p>
+
+<h4 id="linear-regression:151d92fb75a508007a285feb55442c14">Linear Regression</h4>
+
+<p>Regression problem in machine learning means predicting <em>continuous valued outputs</em>. When regression problem arises in situations, when there exists a nearly linear relation between input and output variables, we classify such problems under <em>linear regression</em>. For example, let us assume that we were given a probelm to predict the amount of money a person spends in a year. Although, a person&rsquo;s spending may depend on many other factors, but to simplify the problem, let&rsquo;s us focus on the relation between people&rsquo;s expenditures and their incomes. Generally, the relation between people&rsquo;s expenditures and incomes may not be perfectly linear, but when we plot this relation for different people, as depicted by the scatter plot below, there may exist a nearly linear relation between these two quantities.</p>
+
+<p><img src="/linear_reg/Spend-vs-income.png" title="Expenditure V/S Income"></p>
+
+<p>The solution to linear regression problem now boils down to finding a linear model which best estimates the behavior of the relation between input(income) and output(expenditure) variables. This best fit continuos linear model then helps us predict an estimate for the expenditure corresponding to any income value. The following graph depicts what we mean by best fit linear model.</p>
+
+<p><img src="/linear_reg/Best-Fit.png" title="Best-Fit Linear Model"></p>
+
+<p>Mathematically, a linear model can be represented by.<br />
+$y = ax+b$<br />
+where,<br />
+$y$ = independent variable (income in our example)<br />
+$x$ = dependent variable (expenditure in our example)<br />
+$a$ = slope or gradient<br />
+$b$ = intercept</p>
+
+<p>In order to find best fit, we try minimize the residual variation between out model(hypothesis) and actual output values.</p>
+
+<p>Best fit :   $min \sum\limits_{i}(y_i - \hat{y_i})^2$<br />
+where $y_i$ = actual output value for $i^{th}$ obervation<br />
+and $\hat{y_i}$ = predicted output value for $i^{th}$ obervation</p>
+
+<p>In the example presented above, output depended upon single input variable. Such problems are called <em>univariate linear regression</em>  problems. Practically, the amount a person spends may depend on many other factors or input variables. These problems are then classified as <em>multiivariate linear regression</em> problems. In such cases, the input is represented by a vector (a list of input variables). To simplify things, we will limit out implementation to univariate linear regression.</p>
+
+<h4 id="implentating-linear-regression-using-tensorflow:151d92fb75a508007a285feb55442c14">Implentating Linear Regression Using TensorFlow</h4>
+
+<p>First we import necessary libraries.</p>
+
+<pre><code>import numpy as np
+import tensorflow as tf
+import matplotlib.patches as mpatches
+import matplotlib.pyplot as mplt
+</code></pre>
+
+<p>Next we generate x and y data (actual or training data) that will be used as input to train our linear model.</p>
+
+<pre><code>x_data= np.arange(0, 100, 1)
+y_data = 0.5*x_data + 1
+
+#Adding some Gaussian noise to y_data
+y_data = np.vectorize(lambda y : y + np.random.normal(loc=5.0,scale=5.0))(y_data)
+mplt.plot(x_data, y_data, 'bo')
+mplt.ylabel('Expenditure ( x 100)')
+mplt.xlabel('Income ( x 1,000)')
+mplt.show()
+</code></pre>
+
+<p>The training data generated above appears as follows.<br />
+<img src="/linear_reg/Spend-vs-income.png" title="Expenditure V/S Income"></p>
+
+<p>Now we initialize variables a and b in tensorflow. We can give any random initial values to values to $a$ and $b$. The gradient descent optmizer that we implement below, will ultimately optimize these values that represents best linear fit in $y = ax+b$</p>
+
+<pre><code>a=tf.Variable(1.0)
+b=tf.Variable(0.0)
+</code></pre>
+
+<p>Then we define a linear function.</p>
+
+<pre><code>y=a*x_data + b
+</code></pre>
+
+<p>As discussed above, in linear regression we try to minimize residual error between hypothesis and actual y data. For which we find a residual error value.
+reduce_mean() function calculates mean of a mathematical function.</p>
+
+<pre><code>residual=tf.reduce_mean(tf.square(y - y_data))
+</code></pre>
+
+<p>Now we define the optimizer method. Here we use simple gradient descent of 0.0001 and then we try to minimize the residual error. In tensorflow every operation is executed in a session. So we create session using Session() method. All variables to be used in operations must be initialized first.</p>
+
+<pre><code>optimizer = tf.train.GradientDescentOptimizer(0.0001)
+train = optimizer.minimize(residual)
+
+init=tf.initialize_all_variables()
+sess = tf.Session()
+sess.run(init)
+
+train_data =[]
+for step in range(1000):
+    evals = sess.run([train,a,b])[1:]
+    if step%50 ==0:
+        print(step, evals)
+        train_data.append(evals)
+</code></pre>
+
+<p>In the output below, we can see how values of a,b converge to their optimized values that will give us best fit model.</p>
+
+<p>0 [0.73032355, -0.0037603895]<br />
+50 [0.58921194, 0.0093623158]<br />
+100 [0.58898264, 0.024570402]<br />
+150 [0.58875394, 0.039739955]<br />
+200 [0.58852577, 0.054871064]<br />
+250 [0.58829826, 0.069963828]<br />
+300 [0.58807129, 0.085018359]<br />
+350 [0.58784491, 0.10003471]<br />
+400 [0.58761907, 0.11501303]<br />
+450 [0.58739382, 0.12995344]<br />
+500 [0.58716917, 0.1448559]<br />
+550 [0.58694506, 0.15972069]<br />
+600 [0.58672148, 0.17454772]<br />
+650 [0.5864985, 0.18933743]<br />
+700 [0.58627611, 0.20408921]<br />
+750 [0.58605427, 0.21880373]<br />
+800 [0.58583295, 0.233481]<br />
+850 [0.58561224, 0.24812102]<br />
+900 [0.58539212, 0.26272413]<br />
+950 [0.58517247, 0.27729002]</p>
+
+<p>Let us plot these values to understand the above convergence better.</p>
+
+<pre><code>converter = mplt.colors
+cr, cg, cb = (1.0,1.0,0.0)
+for f in train_data:
+    print(cr, cg, cb)
+    cb+=1.0/ len(train_data)
+    cg-=1.0/len(train_data)
+    if cb&gt;1.0: cb=1.0
+    if cg&lt;0.0: cg=0.0
+    [a,b] = f
+    f_y = np.vectorize(lambda x: a*x +b)(x_data)
+    line = mplt.plot(x_data, f_y)
+    mplt.setp(line, color=(cr,cg,cb))
+
+mplt.plot(x_data, y_data, 'bo')
+
+blue_line = mpatches.Patch(color='blue', label='Data Points')
+pink_line = mpatches.Patch(color='magenta', label='Best Fit Linear Model')
+yellow_line = mpatches.Patch(color='yellow', label='Possible Linear Models')
+
+mplt.legend(handles=[blue_line, yellow_line, pink_line])
+mplt.ylabel('Expenditure ( x 100)')
+mplt.xlabel('Income ( x 1,000)')
+
+mplt.show()
+</code></pre>
+
+<p>The pink line below represents the best fit linear model.</p>
+
+<p><img src="/linear_reg/Best-Fit.png" title="Best-Fit Linear Model"></p>
+
             </div>
             <footer class="article-footer">
     
@@ -376,17 +530,19 @@
 </footer>
 
         </div>
+
+        
+
+
+
     </article>
+
     
-
-    <nav id="page-nav">
-
-</nav>
-
 </section>
 
 
-    <aside id="sidebar">
+	    
+	    <aside id="sidebar">
     
 <div class="widget-wrap">
     <h3 class="widget-title">
@@ -399,7 +555,7 @@
                 <div class="item-thumbnail">
                     <a href="https://parvezrafi.github.io/2016/12/11/linear-regression-in-tensorflow" class="thumbnail">
                     
-                        <span style="background-image:url(https://parvezrafi.github.io/banners/tf.jpg)" alt="My Learning Curve" class="thumbnail-image"></span>
+                        <span style="background-image:url(https://parvezrafi.github.io/banners/tf.jpg)" alt="Linear Regression In TensorFlow" class="thumbnail-image"></span>
                     
                     </a>
                 </div>
@@ -480,7 +636,8 @@
     <div id="toTop" class="fa fa-angle-up"></div>
 </aside>
 
-    </div>
+	    
+	</div>
 </div>
 
 <footer id="footer">

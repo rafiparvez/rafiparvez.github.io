@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on My Learning Curve</title>
+    <link>https://parvezrafi.github.io/project/</link>
+    <description>Recent content in Projects on My Learning Curve</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Oct 2015 21:49:20 +0200</lastBuildDate>
+    <atom:link href="https://parvezrafi.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Microblogging Platform</title>
+      <link>https://parvezrafi.github.io/project/Microblogger-Platform/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      
+      <guid>https://parvezrafi.github.io/project/Microblogger-Platform/</guid>
+      <description>
+
+&lt;p&gt;An application which provides a secure platform to posts microblogs and view others&amp;rsquo; posts.&lt;/p&gt;
+
+&lt;h3 id=&#34;technology-stack:530f28449e30f3e54e62a8603b239dcf&#34;&gt;TECHNOLOGY STACK&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Web Framework&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Flask&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Auth. Framework&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;OAuth 2.0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Front-End&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Jinja2, HTML, CSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Database&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;MySQL&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Source Code&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/rafiparvez/Flask-Apps/tree/master/Microblogger-v2&#34;&gt;My Microblogger&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Recognize the numbers</title>
+      <link>https://parvezrafi.github.io/project/Digit-Recognizer/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      
+      <guid>https://parvezrafi.github.io/project/Digit-Recognizer/</guid>
+      <description>
+
+&lt;p&gt;A machine learning based solution which helps recognize hand-written digits.&lt;/p&gt;
+
+&lt;h3 id=&#34;technology-stack:b8e92ffc2bfc1a4efb876f0cac205d44&#34;&gt;TECHNOLOGY STACK&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Algorithm&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Random Forest Classifier&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Language&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;MATLAB&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Source Code&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/rafiparvez/Hand-Written-Digit-Recognizer/&#34;&gt;Digit Recognizer&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Book-Exchange-system</title>
+      <link>https://parvezrafi.github.io/project/Book-Exchange-system/</link>
+      <pubDate>Sun, 02 Aug 2015 21:49:20 +0200</pubDate>
+      
+      <guid>https://parvezrafi.github.io/project/Book-Exchange-system/</guid>
+      <description>
+
+&lt;p&gt;A student book exchange system for a college. The repository contains ER diagrams, relational models and database schema on MySQL server.&lt;/p&gt;
+
+&lt;h3 id=&#34;technology-stack:3345ad2f213083228ae613f369c488cf&#34;&gt;TECHNOLOGY STACK&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Database&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;MySQL&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Link&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/rafiparvez/BPUB-Book-Exchange-MySQL&#34;&gt;BPUB Book Exchange&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Car Insurace Predictor</title>
+      <link>https://parvezrafi.github.io/project/Car-Insurance-Predictor/</link>
+      <pubDate>Thu, 02 Oct 2014 21:49:20 +0200</pubDate>
+      
+      <guid>https://parvezrafi.github.io/project/Car-Insurance-Predictor/</guid>
+      <description>
+
+&lt;p&gt;A machine learning based solution written in R which predicts the insurance option a customer would prefer analyzing traits of customers.&lt;/p&gt;
+
+&lt;h3 id=&#34;technology-stack:899baf2ae3f846cce1d8923711fc595a&#34;&gt;TECHNOLOGY STACK&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Algorithm&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Flask&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Language&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;OAuth 2.0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Source Code&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/rafiparvez/Allstate-Purchase-Prediction-Challenge&#34;&gt;Car insurance Predictor&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

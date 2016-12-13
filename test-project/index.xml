@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test-projects on The Learning Curve</title>
+    <link>https://parvezrafi.github.io/test-project/</link>
+    <description>Recent content in Test-projects on The Learning Curve</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Oct 2015 21:49:20 +0200</lastBuildDate>
+    <atom:link href="https://parvezrafi.github.io/test-project/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Digit Recognizer</title>
+      <link>https://parvezrafi.github.io/test-project/Digit-Recognizer/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      
+      <guid>https://parvezrafi.github.io/test-project/Digit-Recognizer/</guid>
+      <description>
+
+&lt;p&gt;A machine learning based solution which helps recognize hand-written digits&lt;/p&gt;
+
+&lt;h3 id=&#34;technology-stack:b8e92ffc2bfc1a4efb876f0cac205d44&#34;&gt;TECHNOLOGY STACK&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Algorithm&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Random Forest Classifier&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Language&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;MATLAB&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Source&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/rafiparvez/Hand-Written-Digit-Recognizer/&#34;&gt;Digit Recognizer&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My Microblogger</title>
+      <link>https://parvezrafi.github.io/test-project/My-Microblogger/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      
+      <guid>https://parvezrafi.github.io/test-project/My-Microblogger/</guid>
+      <description>
+
+&lt;p&gt;An application which provides a secure platform to posts microblogs and view others&amp;rsquo; posts.&lt;/p&gt;
+
+&lt;h3 id=&#34;technology-stack:9e6937ead787f3e11b34dd057bcc6238&#34;&gt;TECHNOLOGY STACK&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Web Framework&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Flask&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Auth. Framework&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;OAuth 2.0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Front-End&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Jinja2, HTML, CSS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Database&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;MySQL&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Source Code&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/rafiparvez/Flask-Apps/tree/master/Microblogger-v2&#34;&gt;My Microblogger&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Project 3</title>
+      <link>https://parvezrafi.github.io/test-project/Project3/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      
+      <guid>https://parvezrafi.github.io/test-project/Project3/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim. Ut ante turpis, tristique vitae sagittis quis, sagittis nec diam. Fusce pulvinar cursus porta. Vivamus maximus leo dolor, ut pellentesque lorem fringilla nec. Mauris faucibus turpis posuere sapien euismod, a ullamcorper mi maximus.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Word Counter</title>
+      <link>https://parvezrafi.github.io/test-project/Words-Counter/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      
+      <guid>https://parvezrafi.github.io/test-project/Words-Counter/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim. Ut ante turpis, tristique vitae sagittis quis, sagittis nec diam. Fusce pulvinar cursus porta. Vivamus maximus leo dolor, ut pellentesque lorem fringilla nec. Mauris faucibus turpis posuere sapien euismod, a ullamcorper mi maximus.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Car Insurace Predictor</title>
+      <link>https://parvezrafi.github.io/test-project/Car-Insurance-Predictor/</link>
+      <pubDate>Thu, 02 Oct 2014 21:49:20 +0200</pubDate>
+      
+      <guid>https://parvezrafi.github.io/test-project/Car-Insurance-Predictor/</guid>
+      <description>
+
+&lt;p&gt;A machine learning based solution written in R which predicts the insurance option a customer would prefer analyzing traits of customers.&lt;/p&gt;
+
+&lt;h3 id=&#34;technology-stack:899baf2ae3f846cce1d8923711fc595a&#34;&gt;TECHNOLOGY STACK&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Algorithm&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Flask&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Language&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;OAuth 2.0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Source Code&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/rafiparvez/Allstate-Purchase-Prediction-Challenge&#34;&gt;Car insurance Predictor&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
