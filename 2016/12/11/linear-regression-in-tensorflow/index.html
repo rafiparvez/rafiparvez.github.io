@@ -10,20 +10,20 @@
       <meta name="description" content="">
     
     
-    <link rel="canonical" href="https://parvezrafi.github.io/2016/12/11/linear-regression-in-tensorflow"/>
-    <link rel="icon" href="https://parvezrafi.github.io/favicon.ico">
-    <link rel="apple-touch-icon" href="https://parvezrafi.github.io/apple-touch-icon.png"/>
-    <link rel="stylesheet" href="https://parvezrafi.github.io/css/style.css">
-    <link rel="stylesheet" href="https://parvezrafi.github.io/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://parvezrafi.github.io/css/monokai.css">
-    <link rel="stylesheet" href="https://parvezrafi.github.io/fancybox/jquery.fancybox.css">
+    <link rel="canonical" href="https://rafiparvez.github.io/2016/12/11/linear-regression-in-tensorflow"/>
+    <link rel="icon" href="https://rafiparvez.github.io/favicon.ico">
+    <link rel="apple-touch-icon" href="https://rafiparvez.github.io/apple-touch-icon.png"/>
+    <link rel="stylesheet" href="https://rafiparvez.github.io/css/style.css">
+    <link rel="stylesheet" href="https://rafiparvez.github.io/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://rafiparvez.github.io/css/monokai.css">
+    <link rel="stylesheet" href="https://rafiparvez.github.io/fancybox/jquery.fancybox.css">
     
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
     <meta property="og:title" content="Linear Regression In TensorFlow" />
 <meta property="og:description" content="This article explains how to implement linear regression in using Tensorflow. TensorFlow is an open-source library released by Google Brain Team in 2015 for numerical computations using dataflow graphs. Before we dive into implementing Linear Regression algorithm using Tensorflow, let me give you a brief primer on linear regression. Linear Regression Regression problem in machine learning means predicting continuous valued outputs. When regression problem arises in situations, when there exists a nearly linear relation between input and output variables, we classify such problems under linear regression." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://parvezrafi.github.io/2016/12/11/linear-regression-in-tensorflow" />
+<meta property="og:url" content="https://rafiparvez.github.io/2016/12/11/linear-regression-in-tensorflow" />
 
 
 <meta property="og:updated_time" content="2016-12-11T22:50:08&#43;02:00"/>
@@ -76,16 +76,16 @@
 	<header id="header">
   <div id="header-main" class="header-inner">
     <div class="outer">
-      <a href="https://parvezrafi.github.io/" id="logo">
+      <a href="https://rafiparvez.github.io/" id="logo">
           
-          <i class="logo" style="background-image: url('https://parvezrafi.github.io/css/images/logo.png')"></i>
+          <i class="logo" style="background-image: url('https://rafiparvez.github.io/css/images/logo.png')"></i>
           
           <span class="site-title">My Learning Curve</span>
       </a>
       <nav id="main-nav">
           
           
-          <a class="main-nav-link" href="https://parvezrafi.github.io/">Blog</a>
+          <a class="main-nav-link" href="https://rafiparvez.github.io/">Blog</a>
           
           
           
@@ -99,17 +99,17 @@
           
           
           
-          <a class="main-nav-link" href="https://parvezrafi.github.io/project/">Project</a>
+          <a class="main-nav-link" href="https://rafiparvez.github.io/project/">Project</a>
           
           
           
-          <a class="main-nav-link" href="https://parvezrafi.github.io/AboutMe">About</a>
+          <a class="main-nav-link" href="https://rafiparvez.github.io/AboutMe">About</a>
           
           
       </nav>
         <nav id="sub-nav">
           <div class="profile" id="profile-nav">
-            <a id="profile-anchor" href="javascript:;"><img class="avatar" src="https://parvezrafi.github.io/css/images/avatar.png"><i class="fa fa-caret-down"></i></a>
+            <a id="profile-anchor" href="javascript:;"><img class="avatar" src="https://rafiparvez.github.io/css/images/avatar.png"><i class="fa fa-caret-down"></i></a>
           </div>
         </nav>
 
@@ -121,7 +121,7 @@
           <tr>
           
           
-          <td><a class="main-nav-link" href="https://parvezrafi.github.io/">Blog</a></td>
+          <td><a class="main-nav-link" href="https://rafiparvez.github.io/">Blog</a></td>
           
           
           
@@ -135,11 +135,11 @@
           
           
           
-          <td><a class="main-nav-link" href="https://parvezrafi.github.io/project/">Project</a></td>
+          <td><a class="main-nav-link" href="https://rafiparvez.github.io/project/">Project</a></td>
           
           
           
-          <td><a class="main-nav-link" href="https://parvezrafi.github.io/AboutMe">About</a></td>
+          <td><a class="main-nav-link" href="https://rafiparvez.github.io/AboutMe">About</a></td>
           
           
 
@@ -155,7 +155,7 @@
 	    <aside id="profile">
   <div class="inner profile-inner">
     <div class="base-info profile-block">
-      <img id="avatar" src="https://parvezrafi.github.io/css/images/avatar.png">
+      <img id="avatar" src="https://rafiparvez.github.io/css/images/avatar.png">
       <h2 id="name">Parvez Rafi</h2>
       <h3 id="title">Blogger - Programmer - Artist</h3>
       <span id="location"><i class="fa fa-map-marker"></i>Texas, USA</span>
@@ -254,11 +254,11 @@
     <article id="page-undefined" class="article article-type-page" itemscope="" itemprop="blogPost">
         <div class="article-inner">
             
-                <img src="https://parvezrafi.github.io/banners/tf.jpg" class="article-banner">
+                <img src="https://rafiparvez.github.io/banners/tf.jpg" class="article-banner">
             
 
             <header class="article-header">
-    <a href="https://parvezrafi.github.io/2016/12/11/linear-regression-in-tensorflow">
+    <a href="https://rafiparvez.github.io/2016/12/11/linear-regression-in-tensorflow">
     <h1 class="article-title" itemprop="name">
         Linear Regression In TensorFlow
     </h1>
@@ -456,7 +456,7 @@ mplt.show()
             </div>
             <footer class="article-footer">
     
-    <a data-url="https://parvezrafi.github.io/2016/12/11/linear-regression-in-tensorflow" data-id="151d92fb75a508007a285feb55442c14" class="article-share-link">
+    <a data-url="https://rafiparvez.github.io/2016/12/11/linear-regression-in-tensorflow" data-id="151d92fb75a508007a285feb55442c14" class="article-share-link">
         <i class="fa fa-share"></i>
         Share
     </a>
@@ -553,9 +553,9 @@ mplt.show()
             
             <li>
                 <div class="item-thumbnail">
-                    <a href="https://parvezrafi.github.io/2016/12/11/linear-regression-in-tensorflow" class="thumbnail">
+                    <a href="https://rafiparvez.github.io/2016/12/11/linear-regression-in-tensorflow" class="thumbnail">
                     
-                        <span style="background-image:url(https://parvezrafi.github.io/banners/tf.jpg)" alt="Linear Regression In TensorFlow" class="thumbnail-image"></span>
+                        <span style="background-image:url(https://rafiparvez.github.io/banners/tf.jpg)" alt="Linear Regression In TensorFlow" class="thumbnail-image"></span>
                     
                     </a>
                 </div>
@@ -564,13 +564,13 @@ mplt.show()
                     
                     <p class="item-category">
                         
-                        <a class="article-category-link" href="https://parvezrafi.github.io/categories/machine-learning">
+                        <a class="article-category-link" href="https://rafiparvez.github.io/categories/machine-learning">
                         machine learning
                         </a>
                     </p>
                     
                     
-                    <p class="item-title"><a href="https://parvezrafi.github.io/2016/12/11/linear-regression-in-tensorflow" class="title">Linear Regression In TensorFlow</a></p>
+                    <p class="item-title"><a href="https://rafiparvez.github.io/2016/12/11/linear-regression-in-tensorflow" class="title">Linear Regression In TensorFlow</a></p>
                     <p class="item-date">
                         <time datetime="2016-12-11 22:50:08 &#43;0200 &#43;0200" itemprop="datePublished">11/12/2016</time>
                     </p>
@@ -592,7 +592,7 @@ mplt.show()
             
             <li class="category-list-item">
                 
-                <a class="category-list-link" href="https://parvezrafi.github.io/categories/machine-learning">
+                <a class="category-list-link" href="https://rafiparvez.github.io/categories/machine-learning">
                     machine-learning
                 </a>
                 <span class="category-list-count">1</span>
@@ -617,7 +617,7 @@ mplt.show()
             
             <li class="category-list-item">
                 
-                <a class="category-list-link" href="https://parvezrafi.github.io/tags/tensorflow">
+                <a class="category-list-link" href="https://rafiparvez.github.io/tags/tensorflow">
                     tensorflow
                 </a>
                 <span class="category-list-count">1</span>
@@ -650,8 +650,8 @@ mplt.show()
 </footer>
 
 
-<script src="https://parvezrafi.github.io/fancybox/jquery.fancybox.pack.js"></script>
-<script src="https://parvezrafi.github.io/js/script.js"></script>
+<script src="https://rafiparvez.github.io/fancybox/jquery.fancybox.pack.js"></script>
+<script src="https://rafiparvez.github.io/js/script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 

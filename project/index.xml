@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on My Learning Curve</title>
-    <link>https://parvezrafi.github.io/project/</link>
+    <link>https://rafiparvez.github.io/project/</link>
     <description>Recent content in Projects on My Learning Curve</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 02 Oct 2015 21:49:20 +0200</lastBuildDate>
-    <atom:link href="https://parvezrafi.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://rafiparvez.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Microblogging Platform</title>
-      <link>https://parvezrafi.github.io/project/Microblogger-Platform/</link>
+      <link>https://rafiparvez.github.io/project/Microblogger-Platform/</link>
       <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
-      <guid>https://parvezrafi.github.io/project/Microblogger-Platform/</guid>
+      <guid>https://rafiparvez.github.io/project/Microblogger-Platform/</guid>
       <description>
 
 &lt;p&gt;An application which provides a secure platform to posts microblogs and view others&amp;rsquo; posts.&lt;/p&gt;
@@ -61,10 +61,10 @@
     
     <item>
       <title>Recognize the numbers</title>
-      <link>https://parvezrafi.github.io/project/Digit-Recognizer/</link>
+      <link>https://rafiparvez.github.io/project/Digit-Recognizer/</link>
       <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
-      <guid>https://parvezrafi.github.io/project/Digit-Recognizer/</guid>
+      <guid>https://rafiparvez.github.io/project/Digit-Recognizer/</guid>
       <description>
 
 &lt;p&gt;A machine learning based solution which helps recognize hand-written digits.&lt;/p&gt;
@@ -101,10 +101,10 @@
     
     <item>
       <title>Book-Exchange-system</title>
-      <link>https://parvezrafi.github.io/project/Book-Exchange-system/</link>
+      <link>https://rafiparvez.github.io/project/Book-Exchange-system/</link>
       <pubDate>Sun, 02 Aug 2015 21:49:20 +0200</pubDate>
       
-      <guid>https://parvezrafi.github.io/project/Book-Exchange-system/</guid>
+      <guid>https://rafiparvez.github.io/project/Book-Exchange-system/</guid>
       <description>
 
 &lt;p&gt;A student book exchange system for a college. The repository contains ER diagrams, relational models and database schema on MySQL server.&lt;/p&gt;
@@ -136,10 +136,10 @@
     
     <item>
       <title>Car Insurace Predictor</title>
-      <link>https://parvezrafi.github.io/project/Car-Insurance-Predictor/</link>
+      <link>https://rafiparvez.github.io/project/Car-Insurance-Predictor/</link>
       <pubDate>Thu, 02 Oct 2014 21:49:20 +0200</pubDate>
       
-      <guid>https://parvezrafi.github.io/project/Car-Insurance-Predictor/</guid>
+      <guid>https://rafiparvez.github.io/project/Car-Insurance-Predictor/</guid>
       <description>
 
 &lt;p&gt;A machine learning based solution written in R which predicts the insurance option a customer would prefer analyzing traits of customers.&lt;/p&gt;

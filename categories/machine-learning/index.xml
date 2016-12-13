@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Machine Learning on My Learning Curve</title>
-    <link>https://parvezrafi.github.io/categories/machine-learning/</link>
+    <link>https://rafiparvez.github.io/categories/machine-learning/</link>
     <description>Recent content in Machine Learning on My Learning Curve</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 11 Dec 2016 22:50:08 +0200</lastBuildDate>
-    <atom:link href="https://parvezrafi.github.io/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://rafiparvez.github.io/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Linear Regression In TensorFlow</title>
-      <link>https://parvezrafi.github.io/2016/12/11/linear-regression-in-tensorflow</link>
+      <link>https://rafiparvez.github.io/2016/12/11/linear-regression-in-tensorflow</link>
       <pubDate>Sun, 11 Dec 2016 22:50:08 +0200</pubDate>
       
-      <guid>https://parvezrafi.github.io/2016/12/11/linear-regression-in-tensorflow</guid>
+      <guid>https://rafiparvez.github.io/2016/12/11/linear-regression-in-tensorflow</guid>
       <description>
 
 &lt;p&gt;This article explains how to implement linear regression in using Tensorflow.&lt;/p&gt;
@@ -25,11 +25,11 @@
 
 &lt;p&gt;Regression problem in machine learning means predicting &lt;em&gt;continuous valued outputs&lt;/em&gt;. When regression problem arises in situations, when there exists a nearly linear relation between input and output variables, we classify such problems under &lt;em&gt;linear regression&lt;/em&gt;. For example, let us assume that we were given a probelm to predict the amount of money a person spends in a year. Although, a person&amp;rsquo;s spending may depend on many other factors, but to simplify the problem, let&amp;rsquo;s us focus on the relation between people&amp;rsquo;s expenditures and their incomes. Generally, the relation between people&amp;rsquo;s expenditures and incomes may not be perfectly linear, but when we plot this relation for different people, as depicted by the scatter plot below, there may exist a nearly linear relation between these two quantities.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://parvezrafi.github.io/linear_reg/Spend-vs-income.png&#34; title=&#34;Expenditure V/S Income&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://rafiparvez.github.io/linear_reg/Spend-vs-income.png&#34; title=&#34;Expenditure V/S Income&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;The solution to linear regression problem now boils down to finding a linear model which best estimates the behavior of the relation between input(income) and output(expenditure) variables. This best fit continuos linear model then helps us predict an estimate for the expenditure corresponding to any income value. The following graph depicts what we mean by best fit linear model.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://parvezrafi.github.io/linear_reg/Best-Fit.png&#34; title=&#34;Best-Fit Linear Model&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://rafiparvez.github.io/linear_reg/Best-Fit.png&#34; title=&#34;Best-Fit Linear Model&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;Mathematically, a linear model can be represented by.&lt;br /&gt;
 $y = ax+b$&lt;br /&gt;
@@ -71,7 +71,7 @@ mplt.show()
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;The training data generated above appears as follows.&lt;br /&gt;
-&lt;img src=&#34;https://parvezrafi.github.io/linear_reg/Spend-vs-income.png&#34; title=&#34;Expenditure V/S Income&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;https://rafiparvez.github.io/linear_reg/Spend-vs-income.png&#34; title=&#34;Expenditure V/S Income&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;Now we initialize variables a and b in tensorflow. We can give any random initial values to values to $a$ and $b$. The gradient descent optmizer that we implement below, will ultimately optimize these values that represents best linear fit in $y = ax+b$&lt;/p&gt;
 
@@ -160,7 +160,7 @@ mplt.show()
 
 &lt;p&gt;The pink line below represents the best fit linear model.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://parvezrafi.github.io/linear_reg/Best-Fit.png&#34; title=&#34;Best-Fit Linear Model&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://rafiparvez.github.io/linear_reg/Best-Fit.png&#34; title=&#34;Best-Fit Linear Model&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
