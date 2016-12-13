@@ -206,6 +206,11 @@ mplt.show()
 &lt;/tr&gt;
 
 &lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Big Data&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Hadoop, MapReduce&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;Machine/Deep Learning&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;Scikit-Learn, Pandas, Matplotlib, Numpy, TensorFlow&lt;/td&gt;
 &lt;/tr&gt;
