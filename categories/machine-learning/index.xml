@@ -47,7 +47,7 @@ and $\hat{y_i}$ = predicted output value for $i^{th}$ obervation&lt;/p&gt;
 
 &lt;p&gt;In the example presented above, output depended upon single input variable. Such problems are called &lt;em&gt;univariate linear regression&lt;/em&gt;  problems. Practically, the amount a person spends may depend on many other factors or input variables. These problems are then classified as &lt;em&gt;multiivariate linear regression&lt;/em&gt; problems. In such cases, the input is represented by a vector (a list of input variables). To simplify things, we will limit out implementation to univariate linear regression.&lt;/p&gt;
 
-&lt;h4 id=&#34;implentating-linear-regression-using-tensorflow:151d92fb75a508007a285feb55442c14&#34;&gt;Implentating Linear Regression Using TensorFlow&lt;/h4&gt;
+&lt;h4 id=&#34;implementing-linear-regression-using-tensorflow:151d92fb75a508007a285feb55442c14&#34;&gt;Implementing Linear Regression Using TensorFlow&lt;/h4&gt;
 
 &lt;p&gt;First we import necessary libraries.&lt;/p&gt;
 
