@@ -2,12 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on My Learning Curve</title>
-    <link>https://rafiparvez.github.io/project/</link>
+    <link>https://rafiparvez.github.io/project/index.xml</link>
     <description>Recent content in Projects on My Learning Curve</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Oct 2016 21:49:20 +0200</lastBuildDate>
+    <copyright>Parvez Rafi</copyright>
+    <lastBuildDate>Sun, 16 Apr 2017 21:49:20 +0200</lastBuildDate>
     <atom:link href="https://rafiparvez.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Receipt Classifer</title>
+      <link>https://rafiparvez.github.io/project/ReceiptRecognizer/</link>
+      <pubDate>Sun, 16 Apr 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://rafiparvez.github.io/project/ReceiptRecognizer/</guid>
+      <description>
+
+&lt;p&gt;A machine learning based solution which helps recognize hand-written digits.&lt;/p&gt;
+
+&lt;h3 id=&#34;technology-stack&#34;&gt;TECHNOLOGY STACK&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Algorithm&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Support Vector Classifier&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Language&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Python 3.5&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Libraries&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;OpenCV, Tesseract, scikit-learn&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Source Code&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/rafiparvez/ReceiptRecognizer&#34;&gt;Digit Recognizer&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
     
     <item>
       <title>Recognize the numbers</title>
@@ -19,7 +65,7 @@
 
 &lt;p&gt;A machine learning based solution which helps recognize hand-written digits.&lt;/p&gt;
 
-&lt;h3 id=&#34;technology-stack:b8e92ffc2bfc1a4efb876f0cac205d44&#34;&gt;TECHNOLOGY STACK&lt;/h3&gt;
+&lt;h3 id=&#34;technology-stack&#34;&gt;TECHNOLOGY STACK&lt;/h3&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -59,7 +105,7 @@
 
 &lt;p&gt;A machine learning based solution written in R which predicts the insurance option a customer would prefer analyzing traits of customers.&lt;/p&gt;
 
-&lt;h3 id=&#34;technology-stack:899baf2ae3f846cce1d8923711fc595a&#34;&gt;TECHNOLOGY STACK&lt;/h3&gt;
+&lt;h3 id=&#34;technology-stack&#34;&gt;TECHNOLOGY STACK&lt;/h3&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -99,7 +145,7 @@
 
 &lt;p&gt;A student book exchange system for a college. The repository contains ER diagrams, relational models and database schema on MySQL server.&lt;/p&gt;
 
-&lt;h3 id=&#34;technology-stack:3345ad2f213083228ae613f369c488cf&#34;&gt;TECHNOLOGY STACK&lt;/h3&gt;
+&lt;h3 id=&#34;technology-stack&#34;&gt;TECHNOLOGY STACK&lt;/h3&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -134,7 +180,7 @@
 
 &lt;p&gt;An application which provides a secure platform to posts microblogs and view others&amp;rsquo; posts.&lt;/p&gt;
 
-&lt;h3 id=&#34;technology-stack:530f28449e30f3e54e62a8603b239dcf&#34;&gt;TECHNOLOGY STACK&lt;/h3&gt;
+&lt;h3 id=&#34;technology-stack&#34;&gt;TECHNOLOGY STACK&lt;/h3&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
