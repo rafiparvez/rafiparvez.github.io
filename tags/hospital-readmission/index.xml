@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hospital Readmission on Parvez Rafi</title>
+    <link>https://rafiparvez.github.io/tags/hospital-readmission/</link>
+    <description>Recent content in Hospital Readmission on Parvez Rafi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>rafiparvez@tamu.edu (Parvez Rafi)</managingEditor>
+    <webMaster>rafiparvez@tamu.edu (Parvez Rafi)</webMaster>
+    <lastBuildDate>Sun, 10 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rafiparvez.github.io/tags/hospital-readmission/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Interpretable Deep Learning Framework for Predicting Early ICU Readmissions</title>
+      <link>https://rafiparvez.github.io/post/2017-12-10-dl_predicting-early-readmission/</link>
+      <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
+      <author>rafiparvez@tamu.edu (Parvez Rafi)</author>
+      <guid>https://rafiparvez.github.io/post/2017-12-10-dl_predicting-early-readmission/</guid>
+      <description>&lt;p&gt;ICU readmissions are costly and most of the early ICU readmissions in the United States are potentially avoidable. After the US Govts push towards reducing avoidable readmissions, there has been a surge in research and analyses for reducing the readmission rates. Widespread adoption of Electronic Health Records(EHRs) has made large amount of clinical data available for analysis. It has provided new opportunities to discover meaningful data-driven characteristics and implement machine learning algorithms. Sequential characteristics present in EHR data can be harnessed using state-of-the-art deep learning algorithms. While there has been rapid adoption of deep models in many domains, in Healthcare sector however, their adoption has been slow owing to lack of interpretability of these black-box models. Hence, many clinical applications still prefer simple but interpretable machine learning models. In this project, we have implemented a Knowledge-Distillation approach called Interpretable Mimic Learning for predicting 30-day ICU readmissions. Using this approach, the knowledge of deep models can be transferred to simple and interpretable models and we can combine accuracy and sequential learning of deep models with interpretability of simple models.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Predicting all-Cause 30-Day ICU Readmissions Using Robust Feature Selection</title>
+      <link>https://rafiparvez.github.io/post/2017-11-12-predicting-early-readmission/</link>
+      <pubDate>Wed, 29 Nov 2017 00:00:00 +0000</pubDate>
+      <author>rafiparvez@tamu.edu (Parvez Rafi)</author>
+      <guid>https://rafiparvez.github.io/post/2017-11-12-predicting-early-readmission/</guid>
+      <description>&lt;p&gt;Immature ICU discharge leads to early readmission. Most of the ICU early readmissions can be avoided and a significant amount of treatment costs can be saved. To be able to successfully predict readmission, prediction model should be interpretable so that the issues ignored while discharging a patient from ICU are properly identified. Complex machine learning models are not easily interpretable and consequently they are ineffective for clinicians. Therefore, our aim was to develop a prediction model which achieves a high discriminating characteristic and also is interpretable enough so it can be used to prevent the occurrence of early readmissions. In this project, we separated feature selection and modeling steps to build a robust predictive pipeline to predict 30-day all-cause ICU readmissions. Our model identified 24 highly predictive features which at best achieved prediction with 90% accuracy using simple logistic regression.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Parvez Rafi</title>
+    <link>https://rafiparvez.github.io/tags/</link>
+    <description>Recent content in Tags on Parvez Rafi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>rafiparvez@tamu.edu (Parvez Rafi)</managingEditor>
+    <webMaster>rafiparvez@tamu.edu (Parvez Rafi)</webMaster>
+    <lastBuildDate>Sat, 27 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rafiparvez.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Computer Vision</title>
+      <link>https://rafiparvez.github.io/tags/computer-vision/</link>
+      <pubDate>Sat, 27 May 2017 00:00:00 +0000</pubDate>
+      <author>rafiparvez@tamu.edu (Parvez Rafi)</author>
+      <guid>https://rafiparvez.github.io/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Warehouse</title>
+      <link>https://rafiparvez.github.io/tags/data-warehouse/</link>
+      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+      <author>rafiparvez@tamu.edu (Parvez Rafi)</author>
+      <guid>https://rafiparvez.github.io/tags/data-warehouse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>https://rafiparvez.github.io/tags/deep-learning/</link>
+      <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
+      <author>rafiparvez@tamu.edu (Parvez Rafi)</author>
+      <guid>https://rafiparvez.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feature Selection</title>
+      <link>https://rafiparvez.github.io/tags/feature-selection/</link>
+      <pubDate>Wed, 29 Nov 2017 00:00:00 +0000</pubDate>
+      <author>rafiparvez@tamu.edu (Parvez Rafi)</author>
+      <guid>https://rafiparvez.github.io/tags/feature-selection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hospital Readmission</title>
+      <link>https://rafiparvez.github.io/tags/hospital-readmission/</link>
+      <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
+      <author>rafiparvez@tamu.edu (Parvez Rafi)</author>
+      <guid>https://rafiparvez.github.io/tags/hospital-readmission/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lstm</title>
+      <link>https://rafiparvez.github.io/tags/lstm/</link>
+      <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
+      <author>rafiparvez@tamu.edu (Parvez Rafi)</author>
+      <guid>https://rafiparvez.github.io/tags/lstm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://rafiparvez.github.io/tags/machine-learning/</link>
+      <pubDate>Wed, 29 Nov 2017 00:00:00 +0000</pubDate>
+      <author>rafiparvez@tamu.edu (Parvez Rafi)</author>
+      <guid>https://rafiparvez.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ocr</title>
+      <link>https://rafiparvez.github.io/tags/ocr/</link>
+      <pubDate>Sat, 27 May 2017 00:00:00 +0000</pubDate>
+      <author>rafiparvez@tamu.edu (Parvez Rafi)</author>
+      <guid>https://rafiparvez.github.io/tags/ocr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sql</title>
+      <link>https://rafiparvez.github.io/tags/sql/</link>
+      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+      <author>rafiparvez@tamu.edu (Parvez Rafi)</author>
+      <guid>https://rafiparvez.github.io/tags/sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssis</title>
+      <link>https://rafiparvez.github.io/tags/ssis/</link>
+      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+      <author>rafiparvez@tamu.edu (Parvez Rafi)</author>
+      <guid>https://rafiparvez.github.io/tags/ssis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssrs</title>
+      <link>https://rafiparvez.github.io/tags/ssrs/</link>
+      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+      <author>rafiparvez@tamu.edu (Parvez Rafi)</author>
+      <guid>https://rafiparvez.github.io/tags/ssrs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

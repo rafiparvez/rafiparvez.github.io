@@ -1,168 +1,103 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My Learning Curve</title>
-    <link>https://rafiparvez.github.io/post/index.xml</link>
-    <description>Recent content in Posts on My Learning Curve</description>
+    <title>Posts on Parvez Rafi</title>
+    <link>https://rafiparvez.github.io/post/</link>
+    <description>Recent content in Posts on Parvez Rafi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Parvez Rafi</copyright>
-    <lastBuildDate>Sun, 11 Dec 2016 22:50:08 +0200</lastBuildDate>
-    <atom:link href="https://rafiparvez.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>rafiparvez@tamu.edu (Parvez Rafi)</managingEditor>
+    <webMaster>rafiparvez@tamu.edu (Parvez Rafi)</webMaster>
+    <lastBuildDate>Sun, 10 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rafiparvez.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>Linear Regression In TensorFlow</title>
-      <link>https://rafiparvez.github.io/2016/12/11/linear-regression-in-tensorflow</link>
-      <pubDate>Sun, 11 Dec 2016 22:50:08 +0200</pubDate>
-      
-      <guid>https://rafiparvez.github.io/2016/12/11/linear-regression-in-tensorflow</guid>
-      <description>
+      <title>Interpretable Deep Learning Framework for Predicting Early ICU Readmissions</title>
+      <link>https://rafiparvez.github.io/post/2017-12-10-dl_predicting-early-readmission/</link>
+      <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
+      <author>rafiparvez@tamu.edu (Parvez Rafi)</author>
+      <guid>https://rafiparvez.github.io/post/2017-12-10-dl_predicting-early-readmission/</guid>
+      <description>&lt;p&gt;ICU readmissions are costly and most of the early ICU readmissions in the United States are potentially avoidable. After the US Govts push towards reducing avoidable readmissions, there has been a surge in research and analyses for reducing the readmission rates. Widespread adoption of Electronic Health Records(EHRs) has made large amount of clinical data available for analysis. It has provided new opportunities to discover meaningful data-driven characteristics and implement machine learning algorithms. Sequential characteristics present in EHR data can be harnessed using state-of-the-art deep learning algorithms. While there has been rapid adoption of deep models in many domains, in Healthcare sector however, their adoption has been slow owing to lack of interpretability of these black-box models. Hence, many clinical applications still prefer simple but interpretable machine learning models. In this project, we have implemented a Knowledge-Distillation approach called Interpretable Mimic Learning for predicting 30-day ICU readmissions. Using this approach, the knowledge of deep models can be transferred to simple and interpretable models and we can combine accuracy and sequential learning of deep models with interpretability of simple models.&lt;/p&gt;
 
-&lt;p&gt;This article explains how to implement linear regression in using Tensorflow.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Predicting all-Cause 30-Day ICU Readmissions Using Robust Feature Selection</title>
+      <link>https://rafiparvez.github.io/post/2017-11-12-predicting-early-readmission/</link>
+      <pubDate>Wed, 29 Nov 2017 00:00:00 +0000</pubDate>
+      <author>rafiparvez@tamu.edu (Parvez Rafi)</author>
+      <guid>https://rafiparvez.github.io/post/2017-11-12-predicting-early-readmission/</guid>
+      <description>&lt;p&gt;Immature ICU discharge leads to early readmission. Most of the ICU early readmissions can be avoided and a significant amount of treatment costs can be saved. To be able to successfully predict readmission, prediction model should be interpretable so that the issues ignored while discharging a patient from ICU are properly identified. Complex machine learning models are not easily interpretable and consequently they are ineffective for clinicians. Therefore, our aim was to develop a prediction model which achieves a high discriminating characteristic and also is interpretable enough so it can be used to prevent the occurrence of early readmissions. In this project, we separated feature selection and modeling steps to build a robust predictive pipeline to predict 30-day all-cause ICU readmissions. Our model identified 24 highly predictive features which at best achieved prediction with 90% accuracy using simple logistic regression.&lt;/p&gt;
 
-&lt;p&gt;TensorFlow is an open-source library released by Google Brain Team in 2015 for numerical computations using dataflow graphs. Before we dive into implementing Linear Regression algorithm using Tensorflow, let me give you a brief primer on &lt;em&gt;linear regression&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Receipt OCR Classifier</title>
+      <link>https://rafiparvez.github.io/post/2017-05-27-receipt-ocr-classifier/</link>
+      <pubDate>Sat, 27 May 2017 00:00:00 +0000</pubDate>
+      <author>rafiparvez@tamu.edu (Parvez Rafi)</author>
+      <guid>https://rafiparvez.github.io/post/2017-05-27-receipt-ocr-classifier/</guid>
+      <description>&lt;div class=&#34;gallery caption-position-bottom caption-effect-fade hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+	  
+  
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://rafiparvez.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/img/receipt-thumb.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://rafiparvez.github.io/img/receipt-thumb.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://rafiparvez.github.io/img/receipt.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
 
-&lt;h4 id=&#34;linear-regression&#34;&gt;Linear Regression&lt;/h4&gt;
+&lt;/div&gt;
 
-&lt;p&gt;Regression problem in machine learning means predicting &lt;em&gt;continuous valued outputs&lt;/em&gt;. When regression problem arises in situations, when there exists a nearly linear relation between input and output variables, we classify such problems under &lt;em&gt;linear regression&lt;/em&gt;. For example, let us assume that we were given a probelm to predict the amount of money a person spends in a year. Although, a person&amp;rsquo;s spending may depend on many other factors, but to simplify the problem, let&amp;rsquo;s us focus on the relation between people&amp;rsquo;s expenditures and their incomes. Generally, the relation between people&amp;rsquo;s expenditures and incomes may not be perfectly linear, but when we plot this relation for different people, as depicted by the scatter plot below, there may exist a nearly linear relation between these two quantities.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://rafiparvez.github.io/linear_reg/Spend-vs-income.png&#34; title=&#34;Expenditure V/S Income&#34;&gt;&lt;/p&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Classification Algorithm&lt;/td&gt;
+&lt;td&gt;Support Vector Classifier&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;p&gt;The solution to linear regression problem now boils down to finding a linear model which best estimates the behavior of the relation between input(income) and output(expenditure) variables. This best fit continuos linear model then helps us predict an estimate for the expenditure corresponding to any income value. The following graph depicts what we mean by best fit linear model.&lt;/p&gt;
+&lt;tr&gt;
+&lt;td&gt;Language&lt;/td&gt;
+&lt;td&gt;Python 3.5&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://rafiparvez.github.io/linear_reg/Best-Fit.png&#34; title=&#34;Best-Fit Linear Model&#34;&gt;&lt;/p&gt;
+&lt;tr&gt;
+&lt;td&gt;Libraries&lt;/td&gt;
+&lt;td&gt;OpenCV, Tesseract, scikit-learn&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;p&gt;Mathematically, a linear model can be represented by.&lt;br /&gt;
-$y = ax+b$&lt;br /&gt;
-where,&lt;br /&gt;
-$y$ = independent variable (income in our example)&lt;br /&gt;
-$x$ = dependent variable (expenditure in our example)&lt;br /&gt;
-$a$ = slope or gradient&lt;br /&gt;
-$b$ = intercept&lt;/p&gt;
+&lt;tr&gt;
+&lt;td&gt;Source Code&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/rafiparvez/ReceiptRecognizer&#34; target=&#34;_blank&#34;&gt;Receipt Classifier&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 
-&lt;p&gt;In order to find best fit, we try minimize the residual variation between out model(hypothesis) and actual output values.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Dominick Finer Food (DFF) Data Warehouse</title>
+      <link>https://rafiparvez.github.io/post/2017-05-15-dff-dw/</link>
+      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+      <author>rafiparvez@tamu.edu (Parvez Rafi)</author>
+      <guid>https://rafiparvez.github.io/post/2017-05-15-dff-dw/</guid>
+      <description>&lt;p&gt;Dominick’s was a retail store chain founded in 1918 and headquartered in Illinois. The data being analyzed in this report is from Dominick’s Fine Food&amp;rsquo;s (DFF) database through Chicago Booth collected after both formed a partnership for store-level research into shelf management and pricing. The data encompasses 25 product categories sold at DFF’s 100 retail chain stores located in the Chicago metropolitan area over the years from 1989 to 1997. The research is of the data and developing a data warehouse on top it, would help DFF systematically analyze the factors that influence product sales. This project aims at formulating business questions and develop a Data Warehouse to answer these business questions.&lt;/p&gt;
 
-&lt;p&gt;Best fit :   $min \sum\limits_{i}(y_i - \hat{y_i})^2$&lt;br /&gt;
-where $y_i$ = actual output value for $i^{th}$ obervation&lt;br /&gt;
-and $\hat{y_i}$ = predicted output value for $i^{th}$ obervation&lt;/p&gt;
-
-&lt;p&gt;In the example presented above, output depended upon single input variable. Such problems are called &lt;em&gt;univariate linear regression&lt;/em&gt;  problems. Practically, the amount a person spends may depend on many other factors or input variables. These problems are then classified as &lt;em&gt;multiivariate linear regression&lt;/em&gt; problems. In such cases, the input is represented by a vector (a list of input variables). To simplify things, we will limit out implementation to univariate linear regression.&lt;/p&gt;
-
-&lt;h4 id=&#34;implementing-linear-regression-using-tensorflow&#34;&gt;Implementing Linear Regression Using TensorFlow&lt;/h4&gt;
-
-&lt;p&gt;First we import necessary libraries.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;import numpy as np
-import tensorflow as tf
-import matplotlib.patches as mpatches
-import matplotlib.pyplot as mplt
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Next we generate x and y data (actual or training data) that will be used as input to train our linear model.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;x_data= np.arange(0, 100, 1)
-y_data = 0.5*x_data + 1
-
-#Adding some Gaussian noise to y_data
-y_data = np.vectorize(lambda y : y + np.random.normal(loc=5.0,scale=5.0))(y_data)
-mplt.plot(x_data, y_data, &#39;bo&#39;)
-mplt.ylabel(&#39;Expenditure ( x 100)&#39;)
-mplt.xlabel(&#39;Income ( x 1,000)&#39;)
-mplt.show()
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The training data generated above appears as follows.&lt;br /&gt;
-&lt;img src=&#34;https://rafiparvez.github.io/linear_reg/Spend-vs-income.png&#34; title=&#34;Expenditure V/S Income&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;Now we initialize variables a and b in tensorflow. We can give any random initial values to values to $a$ and $b$. The gradient descent optmizer that we implement below, will ultimately optimize these values that represents best linear fit in $y = ax+b$&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;a=tf.Variable(1.0)
-b=tf.Variable(0.0)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then we define a linear function.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;y=a*x_data + b
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;As discussed above, in linear regression we try to minimize residual error between hypothesis and actual y data. For which we find a residual error value.
-reduce_mean() function calculates mean of a mathematical function.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;residual=tf.reduce_mean(tf.square(y - y_data))
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Now we define the optimizer method. Here we use simple gradient descent of 0.0001 and then we try to minimize the residual error. In tensorflow every operation is executed in a session. So we create session using Session() method. All variables to be used in operations must be initialized first.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;optimizer = tf.train.GradientDescentOptimizer(0.0001)
-train = optimizer.minimize(residual)
-
-init=tf.initialize_all_variables()
-sess = tf.Session()
-sess.run(init)
-
-train_data =[]
-for step in range(1000):
-    evals = sess.run([train,a,b])[1:]
-    if step%50 ==0:
-        print(step, evals)
-        train_data.append(evals)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;In the output below, we can see how values of a,b converge to their optimized values that will give us best fit model.&lt;/p&gt;
-
-&lt;p&gt;0 [0.73032355, -0.0037603895]&lt;br /&gt;
-50 [0.58921194, 0.0093623158]&lt;br /&gt;
-100 [0.58898264, 0.024570402]&lt;br /&gt;
-150 [0.58875394, 0.039739955]&lt;br /&gt;
-200 [0.58852577, 0.054871064]&lt;br /&gt;
-250 [0.58829826, 0.069963828]&lt;br /&gt;
-300 [0.58807129, 0.085018359]&lt;br /&gt;
-350 [0.58784491, 0.10003471]&lt;br /&gt;
-400 [0.58761907, 0.11501303]&lt;br /&gt;
-450 [0.58739382, 0.12995344]&lt;br /&gt;
-500 [0.58716917, 0.1448559]&lt;br /&gt;
-550 [0.58694506, 0.15972069]&lt;br /&gt;
-600 [0.58672148, 0.17454772]&lt;br /&gt;
-650 [0.5864985, 0.18933743]&lt;br /&gt;
-700 [0.58627611, 0.20408921]&lt;br /&gt;
-750 [0.58605427, 0.21880373]&lt;br /&gt;
-800 [0.58583295, 0.233481]&lt;br /&gt;
-850 [0.58561224, 0.24812102]&lt;br /&gt;
-900 [0.58539212, 0.26272413]&lt;br /&gt;
-950 [0.58517247, 0.27729002]&lt;/p&gt;
-
-&lt;p&gt;Let us plot these values to understand the above convergence better.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;converter = mplt.colors
-cr, cg, cb = (1.0,1.0,0.0)
-for f in train_data:
-    print(cr, cg, cb)
-    cb+=1.0/ len(train_data)
-    cg-=1.0/len(train_data)
-    if cb&amp;gt;1.0: cb=1.0
-    if cg&amp;lt;0.0: cg=0.0
-    [a,b] = f
-    f_y = np.vectorize(lambda x: a*x +b)(x_data)
-    line = mplt.plot(x_data, f_y)
-    mplt.setp(line, color=(cr,cg,cb))
-
-mplt.plot(x_data, y_data, &#39;bo&#39;)
-
-blue_line = mpatches.Patch(color=&#39;blue&#39;, label=&#39;Data Points&#39;)
-pink_line = mpatches.Patch(color=&#39;magenta&#39;, label=&#39;Best Fit Linear Model&#39;)
-yellow_line = mpatches.Patch(color=&#39;yellow&#39;, label=&#39;Possible Linear Models&#39;)
-
-mplt.legend(handles=[blue_line, yellow_line, pink_line])
-mplt.ylabel(&#39;Expenditure ( x 100)&#39;)
-mplt.xlabel(&#39;Income ( x 1,000)&#39;)
-
-mplt.show()
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The pink line below represents the best fit linear model.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://rafiparvez.github.io/linear_reg/Best-Fit.png&#34; title=&#34;Best-Fit Linear Model&#34;&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

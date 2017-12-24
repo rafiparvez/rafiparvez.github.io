@@ -1,39 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://rafiparvez.github.io/project/ReceiptRecognizer/</loc>
-    <lastmod>2017-04-16T21:49:20+02:00</lastmod>
+    <loc>https://rafiparvez.github.io/post/2017-12-10-dl_predicting-early-readmission/</loc>
+    <lastmod>2017-12-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rafiparvez.github.io/2016/12/11/linear-regression-in-tensorflow</loc>
-    <lastmod>2016-12-11T22:50:08+02:00</lastmod>
+    <loc>https://rafiparvez.github.io/post/2017-11-12-predicting-early-readmission/</loc>
+    <lastmod>2017-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rafiparvez.github.io/AboutMe/</loc>
-    <lastmod>2016-12-10T12:19:20+02:00</lastmod>
+    <loc>https://rafiparvez.github.io/post/2017-05-27-receipt-ocr-classifier/</loc>
+    <lastmod>2017-05-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rafiparvez.github.io/project/Digit-Recognizer/</loc>
-    <lastmod>2016-10-02T21:49:20+02:00</lastmod>
+    <loc>https://rafiparvez.github.io/post/2017-05-15-dff-dw/</loc>
+    <lastmod>2017-05-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rafiparvez.github.io/project/Car-Insurance-Predictor/</loc>
-    <lastmod>2016-09-02T21:49:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rafiparvez.github.io/project/Book-Exchange-system/</loc>
-    <lastmod>2016-07-22T21:49:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rafiparvez.github.io/project/Microblogger-Platform/</loc>
-    <lastmod>2015-11-02T21:49:20+02:00</lastmod>
+    <loc>https://rafiparvez.github.io/page/about/</loc>
   </url>
   
   <url>
@@ -42,37 +32,91 @@
   </url>
   
   <url>
-    <loc>https://rafiparvez.github.io/categories/machine-learning/</loc>
-    <lastmod>2016-12-11T22:50:08+02:00</lastmod>
+    <loc>https://rafiparvez.github.io/tags/computer-vision/</loc>
+    <lastmod>2017-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rafiparvez.github.io/tags/data-warehouse/</loc>
+    <lastmod>2017-05-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rafiparvez.github.io/tags/deep-learning/</loc>
+    <lastmod>2017-12-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rafiparvez.github.io/tags/feature-selection/</loc>
+    <lastmod>2017-11-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rafiparvez.github.io/tags/hospital-readmission/</loc>
+    <lastmod>2017-12-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rafiparvez.github.io/tags/lstm/</loc>
+    <lastmod>2017-12-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rafiparvez.github.io/tags/machine-learning/</loc>
+    <lastmod>2017-11-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rafiparvez.github.io/tags/ocr/</loc>
+    <lastmod>2017-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rafiparvez.github.io/page/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://rafiparvez.github.io/</loc>
-    <lastmod>2017-04-16T21:49:20+02:00</lastmod>
+    <lastmod>2017-12-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://rafiparvez.github.io/post/</loc>
-    <lastmod>2016-12-11T22:50:08+02:00</lastmod>
+    <lastmod>2017-12-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rafiparvez.github.io/project/</loc>
-    <lastmod>2017-04-16T21:49:20+02:00</lastmod>
+    <loc>https://rafiparvez.github.io/tags/sql/</loc>
+    <lastmod>2017-05-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rafiparvez.github.io/tags/ssis/</loc>
+    <lastmod>2017-05-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rafiparvez.github.io/tags/ssrs/</loc>
+    <lastmod>2017-05-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://rafiparvez.github.io/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rafiparvez.github.io/tags/tensorflow/</loc>
-    <lastmod>2016-12-11T22:50:08+02:00</lastmod>
+    <lastmod>2017-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

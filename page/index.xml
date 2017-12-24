@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Parvez Rafi</title>
+    <link>https://rafiparvez.github.io/page/</link>
+    <description>Recent content in Pages on Parvez Rafi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>rafiparvez@tamu.edu (Parvez Rafi)</managingEditor>
+    <webMaster>rafiparvez@tamu.edu (Parvez Rafi)</webMaster>
+    
+	<atom:link href="https://rafiparvez.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About me</title>
+      <link>https://rafiparvez.github.io/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>rafiparvez@tamu.edu (Parvez Rafi)</author>
+      <guid>https://rafiparvez.github.io/page/about/</guid>
+      <description>I am a graduate student at Texas A&amp;amp;M University. I previously worked on digital marketing technnologies for gloabal brands at Publicis.Sapient. I love to develop creative applications and believe that technology with right intent can shape the world constructively. I find the realms of machine/deep learning very fascinating and feels that with constructive usage of artificial intelligence, societies can be transformed in revolutionary ways. With these thoughts in mind, I embarked on a journey to learn and implement ML/DL algorithms.</description>
+    </item>
+    
+  </channel>
+</rss>

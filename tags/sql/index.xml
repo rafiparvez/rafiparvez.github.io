@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sql on Parvez Rafi</title>
+    <link>https://rafiparvez.github.io/tags/sql/</link>
+    <description>Recent content in Sql on Parvez Rafi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>rafiparvez@tamu.edu (Parvez Rafi)</managingEditor>
+    <webMaster>rafiparvez@tamu.edu (Parvez Rafi)</webMaster>
+    <lastBuildDate>Mon, 15 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rafiparvez.github.io/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dominick Finer Food (DFF) Data Warehouse</title>
+      <link>https://rafiparvez.github.io/post/2017-05-15-dff-dw/</link>
+      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+      <author>rafiparvez@tamu.edu (Parvez Rafi)</author>
+      <guid>https://rafiparvez.github.io/post/2017-05-15-dff-dw/</guid>
+      <description>&lt;p&gt;Dominick’s was a retail store chain founded in 1918 and headquartered in Illinois. The data being analyzed in this report is from Dominick’s Fine Food&amp;rsquo;s (DFF) database through Chicago Booth collected after both formed a partnership for store-level research into shelf management and pricing. The data encompasses 25 product categories sold at DFF’s 100 retail chain stores located in the Chicago metropolitan area over the years from 1989 to 1997. The research is of the data and developing a data warehouse on top it, would help DFF systematically analyze the factors that influence product sales. This project aims at formulating business questions and develop a Data Warehouse to answer these business questions.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

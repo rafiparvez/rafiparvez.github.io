@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Receipt OCR Classifier</title>
+  <meta property="og:title" content="Receipt OCR Classifier" />
+  <meta name="twitter:title" content="Receipt OCR Classifier" />
+  <meta name="description" content="Computer Vision based solution to parse and classify receipts images">
+  <meta property="og:description" content="Computer Vision based solution to parse and classify receipts images">
+  <meta name="twitter:description" content="Computer Vision based solution to parse and classify receipts images">
+  <meta name="author" content="Parvez Rafi"/>
+  <link href='https://rafiparvez.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="https://rafiparvez.github.io/img/avatar-icon.png" />
+  <meta name="twitter:image" content="https://rafiparvez.github.io/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:url" content="https://rafiparvez.github.io/post/2017-05-27-receipt-ocr-classifier/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Parvez Rafi" />
+
+  <meta name="generator" content="Hugo 0.26" />
+  <link rel="canonical" href="https://rafiparvez.github.io/post/2017-05-27-receipt-ocr-classifier/" />
+  <link rel="alternate" href="https://rafiparvez.github.io/index.xml" type="application/rss+xml" title="Parvez Rafi">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://rafiparvez.github.io/css/main.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="https://rafiparvez.github.io/css/pygment_highlights.css" />
+  <link rel="stylesheet" href="https://rafiparvez.github.io/css/highlight.min.css" />
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+</head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://rafiparvez.github.io">Parvez Rafi</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Works" href="/">Works</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/page/about/">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+          <a title="Parvez Rafi" href="https://rafiparvez.github.io">
+            <img class="avatar-img" src="https://rafiparvez.github.io/img/avatar-icon.png" alt="Parvez Rafi" />
+          </a>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+
+
+    
+  
+  
+  
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              <h1>Receipt OCR Classifier</h1>
+                
+                  
+                    <h2 class="post-subheading">Computer Vision based solution to parse and classify receipts images</h2>
+                  
+                
+                
+                  <span class="post-meta">
+  Posted on May 27, 2017
+  
+</span>
+
+
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <div class="gallery caption-position-bottom caption-effect-fade hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+	  
+  
+<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/img/receipt-thumb.jpg');">
+      <img itemprop="thumbnail" src="/img/receipt-thumb.jpg" />
+    </div>
+    <a href="/img/receipt.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+</div>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Classification Algorithm</td>
+<td>Support Vector Classifier</td>
+</tr>
+
+<tr>
+<td>Language</td>
+<td>Python 3.5</td>
+</tr>
+
+<tr>
+<td>Libraries</td>
+<td>OpenCV, Tesseract, scikit-learn</td>
+</tr>
+
+<tr>
+<td>Source Code</td>
+<td><a href="https://github.com/rafiparvez/ReceiptRecognizer" target="_blank">Receipt Classifier</a></td>
+</tr>
+</tbody>
+</table>
+
+<p></p>
+
+<p>This application recognizes whether a receipt belongs to a specific store (Walmart). It pre-processes image using OpenCV python library cv2, extracts the text from processed image using Tesseract and then uses supervised SVC (Support Vector Classifier) model to classify test receipts.</p>
+
+<hr />
+
+<h2 id="usage">Usage</h2>
+
+<p>The source code of the application can be accessed <a href="https://github.com/rafiparvez/ReceiptRecognizer" target="_blank">here</a>.</p>
+
+<ol>
+<li><strong>Configuration:</strong> Paths of input image, pre-processed image, extracted text files, traning and test csvs are configured in config.yml</li>
+<li><strong>Execution:</strong> Execute main.py to run the application.</li>
+</ol>
+
+<hr />
+
+<h2 id="image-pre-processesing">Image Pre-Processesing</h2>
+
+<p>Image pre-processing is being done to improve receipt image quality before extracting text using tesseract. In this process, blocks of texts are identified and cropped to generated processed image. The approach includes following steps.</p>
+
+<ol>
+<li><strong>Rescaling:</strong> Input images give are of larges sizes. They are rescaled to smaller dimension in order to speed up image pre-processing.</li>
+<li><strong>Binarization:</strong> Images are converted to Grayscale and then binarized using adaptive Threshold.</li>
+<li><strong>Denoising and Morphological Transformation:</strong> Morphological Opening is done to remove noises and then Closing is done in order to close small holes in texts in the binary image.</li>
+<li><strong>Finding Countours of Text Blocks:</strong> Morphological Gradient followed by Closing is performed to find contours of text blocks.</li>
+<li><strong>Generating Mask from Text Block Contours:</strong> Mask from contours of text blocks is generated, which is used for cropping required text blocks.</li>
+<li><strong>Cropping text blocks from binary image using mask:</strong> The output is being saved as processed image which is to be parsed by tesseract.</li>
+</ol>
+
+<hr />
+
+<h2 id="extracting-text-from-pre-processesed-images">Extracting Text from Pre-Processesed Images</h2>
+
+<p>pytesseract, Python wrapper over Tesseract OCR utility is being used to extract text from images using following command.</p>
+
+<pre><code>extracted_str = image_to_string(Image.open(ImgProcPath), lang=&quot;eng&quot;, config=&quot;-psm 1&quot;)
+</code></pre>
+
+<hr />
+
+<h2 id="building-classification-model">Building Classification Model</h2>
+
+<p>Support Vector Classfiers work well for text classification because of high-dimensional nature of text documents and robust performance of SVMs in high-feature space. Linear kernel has been used here to speed up training the model and simply requirement of model tuning parameters.</p>
+
+<pre><code>text_clf = Pipeline([('vect', CountVectorizer()),
+                     ('tfidf', TfidfTransformer()),
+                     ('clf', SVC(kernel='linear',probability=True)),])
+</code></pre>
+
+<p><em>CountVectorizer:</em> To convert text file in pipeline into a matrix of token counts.<br />
+<em>TfidfTransformer:</em>  To scale down the impact of tokens that occur very frequently in a given corpus.
+<em>probability=True:</em> To enable estimating class probabilities, which is being used to evaluate Prediction Score in test results.</p>
+
+<hr />
+
+<h2 id="evaluating-classification-model">Evaluating Classification Model</h2>
+
+<p>Cross-validation set is generated from a random sample of training data to evaluate the model. The cross-validation accuracy is measured using.</p>
+
+<pre><code>from sklearn.metrics import classification_report as clsr
+print(clsr(y_cv, predicted, target_names=[str(i) for i in labels.classes_]))
+
+</code></pre>
+
+<hr />
+
+<h2 id="scope-of-future-enhancements">Scope of Future Enhancements</h2>
+
+<ol>
+<li>Combined image(Logo detection) + Text classification.</li>
+<li>Fuzzy lookup and replacement of incorrect closest words. (e.g. &lsquo;almart&rsquo; with &lsquo;walmart&rsquo; and &lsquo;sav m ney&rsquo; with &lsquo;save money&rsquo;).</li>
+</ol>
+      </article>
+
+      <ul class="pager blog-pager">
+        
+          <li class="previous">
+            <a href="https://rafiparvez.github.io/post/2017-05-15-dff-dw/" data-toggle="tooltip" data-placement="top" title="Dominick Finer Food (DFF) Data Warehouse">&larr; Previous Post</a>
+          </li>
+        
+        
+          <li class="next">
+            <a href="https://rafiparvez.github.io/post/2017-11-12-predicting-early-readmission/" data-toggle="tooltip" data-placement="top" title="Predicting all-Cause 30-Day ICU Readmissions Using Robust Feature Selection">Next Post &rarr;</a>
+          </li>
+        
+      </ul>
+
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:rafiparvez@tamu.edu" title="Email me" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/parvez.rafi.12" title="Facebook" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/rafiparvez" title="GitHub" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/rafiparvez" title="LinkedIn" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+         © 2017
+		 
+            
+              Parvez Rafi
+                      
+          
+        </p>
+
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://rafiparvez.github.io/js/main.js"></script>
+<script src="https://rafiparvez.github.io/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+<script src="https://rafiparvez.github.io/js/load-photoswipe.js"></script>
+
+
+
+
+  </body>
+</html>
+
